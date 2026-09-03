@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  Clarvis brings prompts, plans, tools, diffs, delegation, memory, and approvals into one terminal workspace—so you can move fast without giving up control.
+  Clarvis brings prompts, plans, tools, diffs, delegation, memory, Extension Profiles, and approvals into one terminal workspace—so you can move fast without giving up control.
 </p>
 
 <p align="center">
@@ -30,9 +30,16 @@
 
 ---
 
+> [!NOTE]
+> The public-beta badge above reads the latest prerelease from `getclarvis/clarvis-releases`
+> automatically. Behavior and reference guides may preview the next source version while installers,
+> archives, and checksums remain on the current immutable public tag.
+
 ## One operating surface for agentic work
 
-Clarvis keeps the entire run visible—from the first prompt to the verified diff. Plans, tool calls, delegated tasks, approvals, failures, and recovery stay in one place, while the operating model remains yours to shape.
+Clarvis keeps the entire run visible—from the first prompt to the verified diff. Plans, tool calls,
+delegated tasks, workflow checkpoints, approvals, failures, and recovery stay in one place, while the
+operating model remains yours to shape.
 
 <table>
   <tr>
@@ -41,8 +48,8 @@ Clarvis keeps the entire run visible—from the first prompt to the verified dif
       Inspect the plan, follow tool calls, review diffs, and see why a run changed direction.
     </td>
     <td width="33%" valign="top">
-      <h3>Prompts you can replace</h3>
-      Customize agents, command policy, memory guidance, compaction, and workflow briefs.
+      <h3>Extensions you select</h3>
+      Compose installed plugins and standalone skills through named Extension Profiles, with exact identities and workspace trust kept visible.
     </td>
     <td width="33%" valign="top">
       <h3>Safety you define</h3>
@@ -50,6 +57,15 @@ Clarvis keeps the entire run visible—from the first prompt to the verified dif
     </td>
   </tr>
 </table>
+
+## In the current documentation preview
+
+- **[Extension Profiles](https://clarvis.dev/guide/extension-profiles)** replace Environments with a
+  clean, explicit identity across the CLI, persisted state, paths, and terminal UI.
+- **[Checkpointed workflows](https://clarvis.dev/guide/workflows)** pause between semantic rounds so
+  Admiral can inspect persisted results and explicitly continue or stop.
+- Steering recovery, portable multiline input, and missing-session failures now settle visibly
+  without leaving the terminal or the next draft in an ambiguous state.
 
 ## Explore the Clarvis ecosystem
 
